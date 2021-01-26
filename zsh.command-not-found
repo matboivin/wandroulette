@@ -1,0 +1,25 @@
+wandroulette () {
+
+	local WILOUTERIES
+
+	WILOUTERIES=(
+		"srsly bro ;o"
+		"lol"
+		"RTFM wesh"
+		"just read the man :("
+		"rofl xD"
+		"omg xD"
+		"-42 roooh ;o"
+		"no comment."
+		"plz :("
+		"I will evaluate your Snow crash :x"
+		"I hope for you I won't evaluate your Darkly :("
+		"need a pro tip? RTFM!"
+		"you need to learn the basics imo"
+		"srsly stop :("
+		"Lol dafuck"
+		"Haha wtf."
+		"WTF. ><"
+		"!voteban ${USER} ><"
+	)
+}
