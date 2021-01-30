@@ -8,7 +8,9 @@ Get insulted by one man army wandre.
 
 wandre will insult the user when they type a wrong command.
 
-## Installation
+:warning: This project is a private joke at School 42 Paris.
+
+## Get wandred!
 
 Done for zsh to be used at school 42 or inside 42's VM.  
 Bash compatible (TODO: update the readme).
@@ -63,7 +65,8 @@ fi
 
 ## Acknowledgements
 
-This project is a private joke at School 42 Paris.
+crebert for the wonderful "Get wandred" pun.
+wandre for the RTFM attitude.
 
 ### Credits
 
