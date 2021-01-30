@@ -65,8 +65,8 @@ fi
 
 ## Acknowledgements
 
-crebert for the wonderful "Get wandred" pun.
-wandre for the RTFM attitude.
+crebert for the wonderful "Get wandred" pun.  
+wandre for the legendary RTFM attitude.
 
 ### Credits
 
