@@ -1,19 +1,29 @@
 # wandroulette
 
-<p align="center">
-  <img src="assets/evildog.png" alt="dog pic" />
-</p>
-
 Get insulted by one man army wandre.
 
 wandre will insult the user when they type a wrong command.
 
+<p align="center">
+  <img src="assets/evildog.png" alt="dog pic" />
+</p>
+
 :warning: This project is a private joke at School 42 Paris.
 
-## Get wandred!
+### Table of content
+
+- [Get wandred (Get started)](#get-wandred)
+  - [Oh yeah insult me wandre (Install)](#oh-yeah-insult-me-wandre)
+  - [Stop it wandre! (Deactivate)](#stop-it-wandre)
+- [Future improvements](#future-improvements)
+- [Bugs](#bugs)
+- [Acknowledgements](#acknowledgements-rainbow)
+  - [Credits](#credits)
+
+## Get wandred
 
 Done for zsh to be used at school 42 or inside 42's VM.  
-Bash compatible (TODO: update the readme).
+Bash compatible (TODO: update the readme, see Future improvements).
 
 ### Oh yeah insult me wandre
 
@@ -63,7 +73,15 @@ else
 fi
 ```
 
-## Acknowledgements
+## Future improvements
+
+Guidelines for bash installation.
+
+## Bugs
+
+Found bugs? :beetle: Feel free to open an issue or a PR.
+
+## Acknowledgements :rainbow:
 
 crebert for the wonderful "Get wandred" pun.  
 wandre for the legendary RTFM attitude.
