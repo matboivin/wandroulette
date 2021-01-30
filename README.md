@@ -24,7 +24,7 @@ sudo cp wandroulette/zsh.command-not-found /etc/
 
 2. Add the following lines to your `.zshrc` file:
 
-```console
+```sh
 # wandre mode
 
 if [ -f /etc/zsh.command-not-found ]; then
@@ -36,7 +36,7 @@ fi
 
 The `# wandre mode` comment is here to find these lines again more easily if needed.
 
-3. Source your `.zshrc `file.
+3. Source your `.zshrc` file.
 
 ```console
 source ~/.zshrc
