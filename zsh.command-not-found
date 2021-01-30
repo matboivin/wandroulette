@@ -1,6 +1,7 @@
 wandroulette () {
 
 	local WILOUTERIES
+	local A_WANDRE_A_DAY
 
 	WILOUTERIES=(
 		"srsly bro ;o"
@@ -22,4 +23,20 @@ wandroulette () {
 		"WTF. ><"
 		"!voteban ${USER} ><"
 	)
+
+	# Seed "random" generator
+	RANDOM=$(date +%s%N)
+	#VALUE=$((${RANDOM}%2))
+	VALUE=0
+
+	A_WANDRE_A_DAY=$(shuf -n 1 -e "${WILOUTERIES[@]}")
+
+	if [[ ${VALUE} -lt 1 ]]; then
+		printf "\n  $(tput bold)$(tput setaf 1)wandre:$(tput sgr0) ${A_WANDRE_A_DAY}\n\n"
+	fi
+}
+
+command_not_found_handler () {
+	wandroulette
+	return 127
 }
