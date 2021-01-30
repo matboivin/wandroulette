@@ -1,12 +1,16 @@
 # wandroulette
 
+<p align="center">
+  <img src="assets/evildog.png" alt="dog pic" />
+</p>
+
 Get insulted by one man army wandre.
 
 wandre will insult the user when they type a wrong command.
 
-## Usage
+## Installation
 
-Done for zsh to be used at school 42 or in 42's VM.  
+Done for zsh to be used at school 42 or inside 42's VM.  
 Bash compatible (TODO: update the readme).
 
 ### Oh yeah insult me wandre
@@ -36,7 +40,7 @@ fi
 
 The `# wandre mode` comment is here to find these lines again more easily if needed.
 
-3. Source your `.zshrc` file.
+3. Source your `.zshrc` file. In your terminal, run:
 
 ```console
 source ~/.zshrc
@@ -46,7 +50,7 @@ source ~/.zshrc
 
 In your terminal, run:
 
-```console
+```sh
 if [ -f /etc/zsh.command-not-found ]; then
 	if sudo rm /etc/zsh.command-not-found; then
 		echo "wandre mode deactivated"
