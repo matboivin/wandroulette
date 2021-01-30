@@ -21,8 +21,7 @@ wandre will insult the user when they type a wrong command.
 
 ## Get wandred
 
-Done for zsh to be used at school 42 or inside 42's VM.  
-Bash compatible (TODO: update the readme, see Future improvements).
+Done for zsh to be used at school 42 or inside 42's VM.
 
 ### Oh yeah insult me wandre
 
@@ -74,7 +73,7 @@ fi
 
 ## Future improvements
 
-Guidelines for bash installation.
+bash version
 
 ## Bugs
 
