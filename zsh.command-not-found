@@ -22,6 +22,10 @@ wandroulette () {
 		"Haha wtf."
 		"WTF. ><"
 		"!voteban ${USER} ><"
+		"rofl are you serious lol"
+		"lol r'ly ? :)"
+		"rofl² haha"
+		"okay, kid im done."
 	)
 
 	# Seed "random" generator
