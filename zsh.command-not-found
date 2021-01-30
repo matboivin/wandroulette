@@ -1,5 +1,4 @@
 wandroulette () {
-
 	local WILOUTERIES
 	local A_WANDRE_A_DAY
 
@@ -10,7 +9,7 @@ wandroulette () {
 		"just read the man :("
 		"rofl xD"
 		"omg xD"
-		"-42 roooh ;o"
+		"roooh -42 ;o"
 		"no comment."
 		"plz :("
 		"I will evaluate your Snow crash :x"
@@ -28,10 +27,9 @@ wandroulette () {
 		"okay, kid im done."
 	)
 
-	#A_WANDRE_A_DAY=$(shuf -n 1 -e "${WILOUTERIES[@]}")
-	A_WANDRE_A_DAY=${WILOUTERIES[1]}
+	A_WANDRE_A_DAY=$(shuf -n 1 -e "${WILOUTERIES[@]}")
 
-	printf "$(tput bold)$(tput setaf 1)${A_WANDRE_A_DAY}$(tput sgr0)"
+	printf "$(tput bold)$(tput setaf 1)wandre: $(tput sgr0)$A_WANDRE_A_DAY"
 }
 
 command_not_found_handler () {
