@@ -28,16 +28,10 @@ wandroulette () {
 		"okay, kid im done."
 	)
 
-	# Seed "random" generator
-	RANDOM=$(date +%s%N)
-	#VALUE=$((${RANDOM}%2))
-	VALUE=0
+	#A_WANDRE_A_DAY=$(shuf -n 1 -e "${WILOUTERIES[@]}")
+	A_WANDRE_A_DAY=${WILOUTERIES[1]}
 
-	A_WANDRE_A_DAY=$(shuf -n 1 -e "${WILOUTERIES[@]}")
-
-	if [[ ${VALUE} -lt 1 ]]; then
-		printf "\n  $(tput bold)$(tput setaf 1)wandre:$(tput sgr0) ${A_WANDRE_A_DAY}\n\n"
-	fi
+	printf "$(tput bold)$(tput setaf 1)${A_WANDRE_A_DAY}$(tput sgr0)"
 }
 
 command_not_found_handler () {
