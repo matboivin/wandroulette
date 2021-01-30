@@ -1,14 +1,13 @@
 # wandroulette
 
-Get insulted by one man army wandre.
-
+Get insulted by one man army wandre.  
 wandre will insult the user when they type a wrong command.
+
+:warning: This project is a private joke at School 42 Paris.
 
 <p align="center">
   <img src="assets/evildog.png" alt="dog pic" />
 </p>
-
-:warning: This project is a private joke at School 42 Paris.
 
 ### Table of content
 
