@@ -29,7 +29,7 @@ wandroulette () {
 
 	A_WANDRE_A_DAY=$(shuf -n 1 -e "${WILOUTERIES[@]}")
 
-	printf "$(tput bold)$(tput setaf 1)wandre: $(tput sgr0)$A_WANDRE_A_DAY"
+	echo "$(tput bold)$(tput setaf 1)wandre: $(tput sgr0)$A_WANDRE_A_DAY"
 }
 
 command_not_found_handler () {
