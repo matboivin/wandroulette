@@ -25,6 +25,7 @@ wandroulette () {
 		"lol r'ly ? :)"
 		"rofl² haha"
 		"okay, kid im done."
+		"things were better in 2013!"
 	)
 
 	A_WANDRE_A_DAY=$(shuf -n 1 -e "${WILOUTERIES[@]}")
